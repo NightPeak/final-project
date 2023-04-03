@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Image Classification Result</title>
+</head>
+<body>
+    <h1>Image Classification Result</h1>
+    <hr>
+    <img src="{{ url_for('static', filename='uploads/' + filepath) }}" width="300">
+    <h2>Prediction: {{ pred }}</h2>
+</body>
+</html>
+
+
+
+
+
